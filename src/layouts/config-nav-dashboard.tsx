@@ -14,12 +14,12 @@ export const navData = [
     icon: icon('ic-analytics'),
   },
   {
-    title: 'User',
+    title: 'Customer',
     path: '/user',
     icon: icon('ic-user'),
   },
   {
-    title: 'Product',
+    title: 'Inventory',
     path: '/products',
     icon: icon('ic-cart'),
     info: (
@@ -29,18 +29,23 @@ export const navData = [
     ),
   },
   {
-    title: 'Blog',
+    title: 'Manage Social Mediab  ',
     path: '/blog',
     icon: icon('ic-blog'),
   },
-  {
-    title: 'Sign in',
+  // {
+  //   title: 'Sign in',
+  //   path: '/sign-in',
+  //   icon: icon('ic-lock'),
+  // },
+   {
+    title: 'Menu Maker',
     path: '/sign-in',
-    icon: icon('ic-lock'),
+    icon: icon('ic-menu'),
   },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: icon('ic-disabled'),
-  },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: icon('ic-disabled'),
+  // },
 ];

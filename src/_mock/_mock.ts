@@ -29,33 +29,34 @@ export const _times = (index: number) =>
     '08/09/2024',
   ][index];
 
-export const _fullName = (index: number) =>
-  [
-    'Billy Stoltenberg',
-    'Eloise Ebert',
-    'Teresa Luettgen',
-    'Salvador Mayert',
-    'Dr. Guadalupe Rath',
-    'Kelvin Pouros',
-    'Thelma Langworth',
-    'Kristen Wunsch',
-    'Steve Welch',
-    'Brian Jacobs',
-    'Lillie Schultz',
-    'Mr. Conrad Spinka',
-    'Charlene Krajcik',
-    'Kerry Kuhlman',
-    'Betty Hammes',
-    'Tony Paucek PhD',
-    'Sherri Davis',
-    'Angel Rolfson-Kulas',
-    'Dr. Lee Doyle-Grant',
-    'Cheryl Romaguera',
-    'Billy Braun',
-    'Adam Trantow',
-    'Brandon Von',
-    'Willis Ankunding',
-  ][index];
+  export const _fullName = (index: number) =>
+    [
+      'Amit Sharma',
+      'Priya Verma',
+      'Suresh Patel',
+      'Ravi Kumar',
+      'Dr. Meena Iyer',
+      'Anil Gupta',
+      'Sunita Reddy',
+      'Neha Desai',
+      'Rajesh Singh',
+      'Vikram Chauhan',
+      'Pooja Joshi',
+      'Mr. Arjun Mehra',
+      'Nidhi Kapoor',
+      'Kunal Bhatt',
+      'Shweta Pandey',
+      'Dr. Vishal Agarwal',
+      'Rohit Khanna',
+      'Nisha Malik',
+      'Dr. Manish Sethi',
+      'Seema Rathi',
+      'Rahul Tandon',
+      'Anita Bhatia',
+      'Akash Rao',
+      'Pankaj Nair',
+    ][index];
+  
 
 export const _price = (index: number) =>
   [
@@ -65,31 +66,9 @@ export const _price = (index: number) =>
 
 export const _company = (index: number) =>
   [
-    'Medhurst, Moore and Franey',
-    'Hahn, Homenick and Lind',
-    'Larkin LLC',
-    'Stamm, Larson and Mertz',
-    'Spencer, Raynor and Langosh',
-    'Lehner - Feeney',
-    'Leuschke, Harris and Kuhlman',
-    'Gutmann - Kassulke',
-    'Turcotte - Runolfsson',
-    'Howe - Anderson',
-    'Sipes - Yost',
-    'Johns - Aufderhar',
-    'Schmidt LLC',
-    'Smitham - Gerlach',
-    'Waelchi - VonRueden',
-    'Padberg - Macejkovic',
-    'Lemke - Ferry',
-    'Koch and Sons',
-    'Klein - Rolfson',
-    'Weimann LLC',
-    'White, Cassin and Goldner',
-    'Mohr, Langworth and Hills',
-    'Mitchell, Volkman and Prosacco',
-    'Streich Group',
-  ][index];
+    '+91863857236',
+    
+  ][index] || '+9181338688686';
 
 export const _boolean = (index: number) =>
   [
